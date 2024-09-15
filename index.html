@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Physics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Introduction to Physics</h1>
+    </header>
+    
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#classical">Classical Physics</a></li>
+                <li><a href="#relativistic">Relativistic Physics</a></li>
+                <li><a href="#quantum">Quantum Physics</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Why Study Physics?</h2>
+                <p>Physics is the fundamental science that explains how the universe behaves. From the motion of planets to the behavior of subatomic particles, physics provides the framework that connects all aspects of the physical world.</p>
+            </section>
+
+            <section id="classical">
+                <h3>Classical Physics</h3>
+                <p>Classical physics deals with the physics of everyday life and observable phenomena. It primarily focuses on Newton's laws of motion and classical mechanics, explaining forces, motion, and energy.</p>
+                <img src="https://previews.123rf.com/images/volody10/volody101802/volody10180200240/96217555-the-pointer-points-to-the-formula-on-the-old-paper.jpg" alt="Classical Physics" width="300">
+            </section>
+
+            <section id="relativistic">
+                <h3>Relativistic Physics</h3>
+                <p>Relativistic physics, introduced by Albert Einstein, expands on classical physics and includes the study of phenomena that occur at speeds close to the speed of light. This area primarily involves special and general relativity.</p>
+                <img src="https://previews.123rf.com/images/forplayday/forplayday2309/forplayday230900062/213768132-3d-illustration-of-black-hole-absorbing-light-in-deep-space-5k-realistic-science-fiction-art.jpg" alt="Relativistic Physics" width="300">
+            </section>
+
+            <section id="quantum">
+                <h3>Quantum Physics</h3>
+                <p>Quantum physics explores the behavior of matter and energy on the smallest scales – the level of atoms and subatomic particles. It reveals that the universe behaves very differently at these scales, governed by uncertainty and probability.</p>
+                <img src="https://previews.123rf.com/images/davidoff205020/davidoff2050201805/davidoff205020180500323/101193899-abstract-cgi-motion-graphics-and-animated-background-of-white-lines-and-shapes-they-swirl-and-morph.jpg" alt="Quantum Physics" width="300">
+            </section>
+
+            <h2>What is your favorite part of physics?</h2>
+    
+    <form id="physicsForm">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <p>Select your favorite branch of physics:</p>
+
+        <label>
+            <input type="radio" name="favPart" value="Classical Physics" required>
+            Classical Physics
+        </label><br>
+
+        <label>
+            <input type="radio" name="favPart" value="Relativistic Physics">
+            Relativistic Physics
+        </label><br>
+
+        <label>
+            <input type="radio" name="favPart" value="Quantum Physics">
+            Quantum Physics
+        </label><br>
+
+        <label>
+            <input type="radio" name="favPart" value="Thermodynamics">
+            Thermodynamics
+        </label><br>
+
+        <label>
+            <input type="radio" name="favPart" value="Electromagnetism">
+            Electromagnetism
+        </label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+            <footer>
+                <h4>Further Learning</h4>
+                <ul>
+                    <li><a href="https://www.youtube.com/user/minutephysics" target="_blank">MinutePhysics YouTube Channel</a></li>
+                    <li><a href="https://phet.colorado.edu/" target="_blank">PhET Simulations</a></li>
+                </ul>
+                <div id="dog-picture">
+                    <h4>Random Dog Picture:</h4>
+                    <img id="dogImage" src="" alt="Random Dog" width="300">
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
